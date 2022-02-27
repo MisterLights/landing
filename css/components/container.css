@@ -1,0 +1,40 @@
+.container {
+	width:  1000px;
+	margin : 0 auto;
+	text-align: left;
+}
+
+/* Responsive design */
+
+@media (max-width: 1440px) {
+	.container {
+		width:  950px;
+		transition: 0.3s;
+	}
+
+}
+
+@media (max-width: 1080px) {
+	.container {
+		width:  720px;
+		transition: 0.3s;
+	}
+
+}
+
+
+@media (max-width: 720px) {
+	.container {
+		width:  480px;
+		transition: 0.3s;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.container {
+		width:  390px;
+		transition: 0.3s;
+	}
+
+}
